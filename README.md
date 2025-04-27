@@ -3,7 +3,7 @@
 <img src="https://github.com/2plus2cabbage/2plus2cabbage/blob/main/images/azure-to-gcp.png" alt="azure-to-gcp" width="300" align="left">
 <br clear="left">
 
-# Azure Windows Instance Terraform Deployment
+# Azure-to-GCP Cross-Cloud Terraform Deployment
 
 Deploys a Windows Server 2022 VM in Microsoft Azure with RDP, internet access, and an IPSEC VPN tunnel to a corresponding Windows VM in GCP for cross-cloud communication.
 
