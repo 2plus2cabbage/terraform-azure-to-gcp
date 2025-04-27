@@ -44,8 +44,8 @@ The project is split into multiple files to illustrate modularity and keep separ
 5. Get the public IP from the `azure_vm_public_ip` output on the screen, or run `terraform output azure_vm_public_ip`, or check in the Azure Portal under **Virtual Machines**.
 6. In the GCP project, update `azure-networking.tf` with the Azure VPN Gateway IP (`azure_vpn_ip` output) and run `terraform apply`.
 7. Verify the tunnel in the Azure Portal under **Virtual Network Gateways > Connections** (should show "Connected").
-8. From the Azure VM, ping the GCP VM’s private IP (`gcp_vm_private_ip` output) to confirm connectivity.
-9. Use Remote Desktop to log in to the Azure VM with the username and password from `terraform.tfvars` (`admin_username` and `windows_admin_password`).
+8. Use Remote Desktop to log in to the Azure VM with the username and password from `terraform.tfvars` (`admin_username` and `windows_admin_password`).
+9. From the Azure VM, ping the GCP VM’s private IP (`gcp_vm_private_ip` output) to confirm connectivity.
 10. To remove all resources, run `terraform destroy` (type `yes`).
 
 ## Potential costs and licensing
