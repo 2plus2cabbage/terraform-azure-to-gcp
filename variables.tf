@@ -39,13 +39,13 @@ variable "windows_admin_password" {
   description = "Password for the Windows VM admin user"
 }
 
-variable "admin_username" {
-  type        = string           # Admin username for the Windows VM
-  description = "Admin username for the Windows VM"
-}
-
 variable "shared_secret_gcp" {
-  type        = string           # Shared secret for Azure-to-GCP IPSEC tunnel [ADDED]
+  type        = string           # Shared secret for Azure-to-GCP IPSEC tunnel
   description = "Shared secret for Azure-to-GCP IPSEC tunnel"
   sensitive   = true
+}
+
+variable "gcp_vpn_ip" {
+  type        = string           # The public IP of the GCP VPN Gateway
+  description = "The public IP of the GCP VPN Gateway"
 }

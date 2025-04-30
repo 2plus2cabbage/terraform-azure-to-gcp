@@ -6,5 +6,5 @@ environment_name        = "<your-environment-name>" # Name for your environment,
 location                = "<your-location>"         # Location identifier, used in resource naming
 my_public_ip            = "<your-public-ip>"        # Your public IP for RDP access
 windows_admin_password  = "<your-admin-password>"   # Password for the Windows VM admin user
-admin_username          = "<your-admin-username>"   # Admin username for the Windows VM
 shared_secret_gcp       = "<your-shared-secret>"    # Shared secret for the IPSEC connection to GCP
+gcp_vpn_ip              = "<gcp-vpn-ip>"            # The public IP of the GCP VPN Gateway (e.g., 35.196.116.13)
